@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+pip-log.txt
+*.env
+.env
+venv/
+ENV/
+.venv/
