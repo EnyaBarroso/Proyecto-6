@@ -17,8 +17,8 @@ if hist_button:
     st.plotly_chart(fig, use_container_width=True)  # Muestra el gráfico en la aplicación
 
 # Botón para generar el gráfico de dispersión
-if hist_button('Generar Gráfico de Dispersión'):
-    scatter_button = st.button('Generar Gráfico de Dispersión')  # Botón de dispersión
+scatter_button = st.button('Construir Gráfico de Dispersión') # boton de histograma
+if scatter_button:
     # escribir un mensaje
     st.write('Creación de un Gráfico de Dispersión para el conjunto de datos de anuncios de venta de coches')
     # Generar gráfico de dispersión con Plotly Express
